@@ -17,4 +17,5 @@ A script to import products from KabelKiosken, with the following variables
 - image1
 - image2
 - image3
+
 The script should be edited before use, as there should be a database configuration of your choice that makes the SQL sentence to import the data, from the variables.
