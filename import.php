@@ -20,8 +20,8 @@
 	    ),
 	);
 	
-	$stock_file = file_get_contents('https://kabelkiosken.dk/lager', false, stream_context_create($arrContextOptions));
-	$productfile = json_decode($stock_file, true);
+	$productfile_raw = file_get_contents('https://kabelkiosken.dk/lager', false, stream_context_create($arrContextOptions));
+	$productfile = json_decode($productfile_raw, true);
 	
 	foreach($productfile as $product){
 		/*
@@ -40,6 +40,7 @@
 				- image1
 				- image2
 				- image3
+			Variables are used as $productfile['product_id'];
 		*/
 	}
 ?>
