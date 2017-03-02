@@ -17,15 +17,16 @@
 	);
 	
 	$stock_file = file_get_contents('https://kabelkiosken.dk/lager-update', false, stream_context_create($arrContextOptions));
-	$productfile = json_decode($stock_file, true);
+	$updatefile = json_decode($stock_file, true);
 	
-	foreach($productfile as $product){
+	foreach($updatefile as $product){
 		/*
 			Insert your database code here.
 			Existing variables:
 				- product_id
 				- stock
 				- price
+			Variables are used as $updatefile['product_id'];
 		*/
 	}
 ?>
