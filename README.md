@@ -10,6 +10,7 @@ A script to import products from KabelKiosken, with the following variables
 | category_name         | Varchar       | 255
 | category_id           | Int           | 11
 | product_id            | Int           | 11
+| stock                 | Int           | 11
 | name                  | Varchar       | 255
 | url                   | Varchar       | 255
 | price                 | Decimal       | 255
@@ -20,5 +21,18 @@ A script to import products from KabelKiosken, with the following variables
 | image1                | Varchar       | 255
 | image2                | Varchar       | 255
 | image3                | Varchar       | 255
+
+Please note that the script should be edited before use, as there should be a database configuration of your choice that makes the SQL sentence to import the data, from the variables.
+
+
+
+###update.php
+A script to update product stock and price from KabelKiosken, with the following variables
+
+| Variable              | Type          | Lenght  |
+| --------------------- |:-------------:| -------:|
+| product_id            | Int           | 11
+| price                 | Decimal       | 255
+| stock                 | Int           | 11
 
 Please note that the script should be edited before use, as there should be a database configuration of your choice that makes the SQL sentence to import the data, from the variables.
