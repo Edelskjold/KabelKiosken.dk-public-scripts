@@ -2,7 +2,7 @@
 A collection of scripts for KabelKiosken's customers and resellers
 
 The following scripts are currently available:
-###import.php
+### import.php
 A script to import products from KabelKiosken, with the following variables
 
 | Variable              | Type          | Lenght  |
@@ -26,7 +26,7 @@ Please note that the script should be edited before use, as there should be a da
 
 
 
-###update.php
+### update.php
 A script to update product stock and price from KabelKiosken, with the following variables
 
 | Variable              | Type          | Lenght  |
