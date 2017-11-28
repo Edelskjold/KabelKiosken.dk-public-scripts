@@ -34,7 +34,11 @@
 				- price
 				- producer
 				- small_description
+				- category_id
+				- category_name
+				- category_url
 				- images (array)
+				
 			Variables are used as $productfile['product_id'];
 		*/
 	}
