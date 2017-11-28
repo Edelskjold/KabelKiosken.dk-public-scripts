@@ -27,19 +27,15 @@
 		/*
 			Insert your database code here.
 			Existing variables:
-				- category_name
-				- category_id
 				- product_id
 				- name
+				- seller_stock
 				- url
+				- retail_price
 				- price
 				- producer
 				- small_description
-				- large_description
-				- image
-				- image1
-				- image2
-				- image3
+				- images (array)
 			Variables are used as $productfile['product_id'];
 		*/
 	}
