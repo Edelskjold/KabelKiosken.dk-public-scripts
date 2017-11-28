@@ -25,7 +25,7 @@
 			Existing variables:
 				- product_id
 				- stock
-				- price
+				- remote_stock
 			Variables are used as $updatefile['product_id'];
 		*/
 	}
