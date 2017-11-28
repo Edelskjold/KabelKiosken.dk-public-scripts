@@ -29,7 +29,6 @@
 			Existing variables:
 				- product_id
 				- name
-				- seller_stock
 				- url
 				- retail_price
 				- price
