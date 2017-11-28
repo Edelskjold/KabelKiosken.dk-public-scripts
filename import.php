@@ -20,7 +20,7 @@
 	    ),
 	);
 	
-	$productfile_raw = file_get_contents('https://kabelkiosken.dk/lager', false, stream_context_create($arrContextOptions));
+	$productfile_raw = file_get_contents('https://kabelkiosken.dk/lager/{API_KEY}', false, stream_context_create($arrContextOptions));
 	$productfile = json_decode($productfile_raw, true);
 	
 	foreach($productfile as $product){
